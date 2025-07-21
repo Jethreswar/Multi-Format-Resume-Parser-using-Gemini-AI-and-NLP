@@ -1,0 +1,26 @@
+{
+    "parser": {
+        "max_pdf_size": 5,
+        "enabled_features": [
+            "Contact Details",
+            "Education",
+            "Work Experience",
+            "Skills"
+        ],
+        "deep_parsing": true
+    },
+    "database": {
+        "host": "localhost",
+        "name": "resume_parser_db",
+        "auto_backup": true
+    },
+    "security": {
+        "admin_email": "admin@example.com",
+        "session_timeout": 15,
+        "two_factor": false
+    },
+    "api": {
+        "api_key": "",
+        "ai_model": "GPT-3.5"
+    }
+}

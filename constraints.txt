@@ -1,0 +1,2 @@
+# Prevent pycrypto from being installed
+pycrypto==none
